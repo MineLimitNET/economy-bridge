@@ -1,7 +1,7 @@
 main: su.nightexpress.economybridge.BridgePlugin
 name: EconomyBridge
 description: Unified library to handle currency plugins easy.
-version: '${project.version}'
+version: $version
 author: NightExpress
 depend:
   - nightcore

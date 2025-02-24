@@ -104,6 +104,7 @@ public class CurrencyManager extends AbstractManager<BridgePlugin> {
         this.pluginProviders.put(CurrencyPlugins.BEAST_TOKENS, () -> this.loadCurrency(CurrencyId.BEAST_TOKENS, BeastTokensCurrency::new));
         this.pluginProviders.put(CurrencyPlugins.VOTING_PLUGIN, () -> this.loadCurrency(CurrencyId.VOTING_PLUGIN, VotingCurrency::new));
         this.pluginProviders.put(CurrencyPlugins.ELITEMOBS, () -> this.loadCurrency(CurrencyId.ELITE_MOBS, EliteMobsCurrency::new));
+        this.pluginProviders.put(CurrencyPlugins.RIVAL_CREDITS, () -> this.loadCurrency(CurrencyId.RIVAL_CREDITS, RivalCreditsCurrency::new));
 
         this.pluginProviders.put(Plugins.VAULT, () -> {
             if (VaultHook.hasEconomy()) {

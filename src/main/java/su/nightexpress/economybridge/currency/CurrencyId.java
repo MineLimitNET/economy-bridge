@@ -17,6 +17,7 @@ public class CurrencyId {
     public static final String VOTING_PLUGIN = "votingplugin";
     public static final String ELITE_MOBS    = "elitemobs";
     public static final String VAULT         = "vault";
+    public static final String RIVAL_CREDITS = "rivalcredits";
 
     @NotNull
     public static String forCoinsEngine(@NotNull String id) {
